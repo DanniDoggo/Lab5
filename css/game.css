@@ -1,0 +1,13 @@
+.background    { background-image: url("https://c1.staticflickr.com/6/5112/7061563019_6b055c761c_b.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: purple; }
+.wall          { background: grey;   }
+.floater       { background: blue;   }
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
